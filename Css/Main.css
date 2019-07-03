@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(../Img/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#mac {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    z-index: 2;
+}
+header {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    margin-top: 35px;
+    margin-left: 300px;
+    font-family: 'Suranna', serif;
+    font-size: 28px;
+    position: absolute;
+    z-index: 3;
+}
+ul {
+    list-style: none;
+}
+.menu li a {
+    
+    background-color: gold;
+    opacity: 0.5;
+    color:black;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+} 
+.menu li a:hover {
+    color: white;
+    opacity: inherit;
+
+}
+.menu > li {
+    float: left;
+}
+.menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.menu li ul li {
+    position: relative;
+}
+.background {
+    width: 1200px;
+    height: 460px;
+    margin-top: 150px;
+    position: absolute;
+    z-index: 1;
+}
+#titulo{
+    text-align: center;
+    text-decoration:none;
+    font-family: fantasy;
+    font-size: 40px;
+    color:gold;
+}
+.t{
+    text-align: center;
+    color: gold;
+    text-decoration:none;
+    font-family: fantasy;
+    font-size: 40px;
+}
+.video{
+    margin-top: 100px;
+    float: left;
+    padding-left: 350px;
+    margin-bottom: 50px;
+    height: 50%;
+}
+
+.enlaceQ:hover{
+    text-decoration: none;
+    color: white;
+}
+.jorge1{
+    height: 200px;
+    width: 250px;
+    position:relative;
+    z-index: 2;
+    float: left;
+     border: 2px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+     margin-top: 17px;
+}
+.jorge2{
+    height: 200px;
+    width: 250px;
+    position:relative;
+    z-index: 3;
+     border: 2px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 17px;
+}
+.jorge3{
+    height: 200px;
+    width: 250px;
+    position:relative;
+    z-index: 4;
+     border: 2px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 17px;
+}
+
+
+
+
+
+
+iframe {
+    margin-left: 25px;
+    margin-top: 85px;
+    position: absolute;
+    z-index: 2;
+}
+.form {
+    position: absolute;
+    z-index: 3;
+    margin-left: 700px;
+    margin-top: 90px;
+}
+legend {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Suranna', serif;
+}
+.bold {
+    padding-left: 100px;
+    color: blueviolet;
+    font-family: 'Courier New','Courier';
+    font-weight: 900;
+}
+.footer {
+    background-color:#17202A;
+    margin-top: 600px;
+    color: white;
+    text-align: center;
+    font-family: 'Suranna', serif;
+}
+/**menu prod*/
+
+.menup li a {
+    
+    background-color: gold;
+    opacity: 0.5;
+    color:#1A0A75  ;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+} 
+.menup li a:hover {
+    color: white;
+    opacity: inherit;
+
+}
+.menup > li {
+    margin-top: 50px;
+    float: left;
+}
+.menup li ul {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+.menup li:hover > ul {
+    display: block;
+}
+.menup li ul li {
+    position: relative;
+}
+
+
+/** productos **/
+
+.productoimg{
+    width: 100px;
+    height: 150px;
+    border: 4px solid gold;
+    margin-left:50px;
+}
+ul.galeria li{
+    float: left;
+    margin: 40px 90px;
+    list-style: none;
+}
+ul.galeria li a img{
+    float: left;
+    width: 200px;
+}
+ul.galeria li a:hover img{
+    transform: scale(1.5);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.5);
+}
+#productos{
+    
+    
+    
+}
+#imagpc{
+   height: 350px;
+    width: 400px;
+    margin-right: 400px;
+    border: 4px solid gold;
+}
+
+#formulario{
+    color:blueviolet;
+    font-size: 20px;
+}
+#contactaF{
+    width: 103%;
+    position: absolute;
+    bottom: 70;
+    background-color: #1E8849;
+    margin-top: 40%;
+    text-align: center;
+}
+
+.tex{
+    font-family: Book Antiqua;
+    font-size: 24;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+
+
+div {
+    border: 0px solid black;
+    float: right;
+    margin-right:85px;
+    margin-top: 20px;
+    display: block;
+    z-index:1;
+    position: relative;
+    margin-left: -50px;
+}
+.uno{
+    height:600px;
+    width: 400px;
+    margin-top: 100px;
+   font-family: 'Mukta', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    color:white;
+    text-align: justify;
+    padding-left: 100px;
+    
+}
+.unos{
+    margin-top: 20px;
+    height: 170px;
+    width: 250px;
+     box-shadow: 4px 4px 10px gold;
+    border: 3px solid #ddd;
+}
+
+
+.instalaciones{
+    margin-left: 80px;
+    float: left;
+    margin-top: 150px;
+    border: 0px solid black;
+    display: block;
+    z-index:1;
+    position: relative;
+    transform: scale(1.0);
+    box-shadow: 4px 4px 10px blue;
+    border: 1px solid #ddd;
+    list-style: none;
+
+
+}
+.fachada{
+    border: 2px solid white;
+    height: 300px;
+    width: 500px;
+    
+}
+.color{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-family: Book Antiqua;
+    font-size: 22px;
+    background-blend-mode: normal;
+}
+
+.ddt{
+    color: white;
+     font-family: Book Antiqua;
+    font-size: 22;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.cinco{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-family: Cambria;
+    padding-left: 20px;
+}
+.textoo{
+    margin-top: 100px;
+     color: blue;
+    font-size: 26px;
+    text-align: center;
+    font-family: Cambria;
+}
+
+
+.desa{
+    height: 250px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 50px;
+    transform: scale(1.0);
+    box-shadow: 4px 4px 10px blue;
+    border: 1px solid #ddd;
+}
+.proy{
+    height: 250px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 50px;
+     transform: scale(1.0);
+    box-shadow: 4px 4px 10px blue;
+    border: 1px solid #ddd;
+}
+.cuerpo1{
+    height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
